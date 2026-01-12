@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "run": "deno run -WNE --env-file=.env src/main.ts"
+  },
+  "imports": {
+    "@std/async": "jsr:@std/async@^1.0.16",
+    "@std/http": "jsr:@std/http@^1.0.23",
+    "@std/path": "jsr:@std/path@^1.1.4",
+    "commander": "npm:commander@^14.0.2"
+  }
+}
